@@ -21,6 +21,8 @@ void main() {
     },
   );
 
+  //
+
   testWidgets(
     "After inputting a text, go to the display page which contains that same text "
     "and then navigate back to the typing page where the input should be clear",
