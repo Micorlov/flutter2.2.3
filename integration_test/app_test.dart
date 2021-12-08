@@ -14,7 +14,7 @@ void main() {
 
       await tester.tap(find.byType(FloatingActionButton));
       await tester.pumpAndSettle();
-
+      //
       expect(find.byType(TypingPage), findsOneWidget);
       expect(find.byType(DisplayPage), findsNothing);
       expect(find.text('Input at least one character'), findsOneWidget);
