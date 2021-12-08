@@ -21,7 +21,7 @@ void main() {
     },
   );
 
-  //
+  ////
 
   testWidgets(
     "After inputting a text, go to the display page which contains that same text "
